@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //JS中设置定时器有两种方式
+
+    //1.setTimeout(方法/函数，毫秒)： 1000毫秒后，执行这个函数（方法)，就执行一次；
+    //    setTimeout(function(){
+    //
+    //    },1000)
+
+    //2.setInterval(方法/函数，毫秒):每隔1000毫秒执行一次函数
+    //    setInterval(function(){
+    //
+    //    },1000)
+
+    //定时器的返回值：代表当前是页面中第几个定时器
+
+    //清除定时器的方法：1.clearInterval  2.clearTimeout
+
+//    var a = setInterval(function () {
+//        console.log("hello");           //5次hello
+//    }, 1000);
+//    var b = setTimeout(function () {
+//        clearInterval(a);
+//    }, 5000);
+
+
+
+//    var b = setTimeout(function () {
+//         clearTimeout(a)
+//    }, 5000);
+//    var a = setInterval(function () {
+//        console.log("hello");      //4次hello  因为先执行了变量b，所以a的第五次还没执行就清掉了
+//    }, 1000);
+
+</script>
+</body>
+</html>
